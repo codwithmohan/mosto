@@ -169,6 +169,15 @@ body {
     width: 100%;
     scroll-behavior: smooth;
     background-color: var(--3d-color);
+    animation: scroll 1s linear;
+}
+@keyframes scroll {
+    0% {
+        transform: translateY(-82px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
 
 .header-main {
