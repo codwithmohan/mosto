@@ -158,12 +158,17 @@ body {
     flex-wrap: wrap;
 }
 
-
 #header {
     width: 100%;
     padding: 20px 0;
     position: absolute;
     z-index: 999;
+}
+#header.darkHeader {
+    position: fixed;
+    width: 100%;
+    scroll-behavior: smooth;
+    background-color: var(--3d-color);
 }
 
 .header-main {

@@ -235,7 +235,8 @@
                         <li><a href="#">Our clients</a></li>
                         <li><a href="#">Careers</a></li>
                     </ul>
-                </div><div class="company-detail">
+                </div>
+                <div class="company-detail">
                     <h6>OFFICES</h6>
                     <ul>
                         <li><a href="#">345 Main St. San Francisco, CA</a></li>
@@ -275,14 +276,25 @@
         </div>
     </footer>
 
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-        $(document).ready(function(){
-            $('.toggle-bar').click(function(){
+        $(document).ready(function () {
+            $('.toggle-bar').click(function () {
                 $('.menu').toggleClass('nav')
             });
+
+        });
+        jQuery(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 50) {
+                $("#header").addClass("darkHeader");
+            } else {
+                $("#header").removeClass("darkHeader");
+            }
         });
     </script>
 </body>
+
 </html>
