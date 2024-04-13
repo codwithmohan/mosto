@@ -165,7 +165,7 @@
     #header {padding: 10px 0;}
     h1 {font-size: 20px; line-height: 25px;}
     .banner-txt {max-width: 296px;}
-    .banner-txt h1 {padding-bottom: 10px;}
+    .banner-txt h1 { padding-bottom: 15px; padding-top: 5px;}
     .banner-txt a {line-height: 28px; padding: 0 12px;}
     #footer {padding: 30px 0;}
     .social-media-icon ul li a {font-size: 16px; width: 30px; height: 30px;}
@@ -175,8 +175,8 @@
     .city {width: 100%;}
     .career-main {row-gap: 15px;}
     .city h4 {padding-bottom: 8px;}
-    .hire-img img {height: 160px; object-fit: cover; object-position: right;}
-    .banner-img img {height: 180px; object-fit: cover; object-position: center;}
+    .hire-img img {height: 220px; object-fit: cover; object-position: right;}
+    .banner-img img {height: 220px; object-fit: cover; object-position: center;}
     h3 {font-size: 16px;}
     .inertia-main p {line-height: 20px;}
     .img-box {width: 100%;}
@@ -197,4 +197,6 @@
     #project::after {height: 40px; margin-top: 25px;}
     .career-row p {padding-top: 20px;}
     .call-of-action {max-width: 300px;}
+    .banner-txt h6 {padding-top: 40px;}
+    .toggle-bar {padding-right: 0;}
 }
