@@ -169,7 +169,7 @@ body {
     width: 100%;
     scroll-behavior: smooth;
     background-color: var(--3d-color);
-    animation: scroll 1s linear;
+    animation: scroll 0.8s linear;
 }
 @keyframes scroll {
     0% {
